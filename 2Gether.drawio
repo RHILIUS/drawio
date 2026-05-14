@@ -425,7 +425,7 @@
         <mxCell id="9iWNwfhXcjhEziTBgmBF-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;h1&gt;Parent Event&lt;/h1&gt;" vertex="1">
           <mxGeometry height="90" width="210" x="-480" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="9iWNwfhXcjhEziTBgmBF-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;h1&gt;Child Event&lt;/h1&gt;" vertex="1">
+        <mxCell id="9iWNwfhXcjhEziTBgmBF-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;h1&gt;Sub Event&lt;/h1&gt;" vertex="1">
           <mxGeometry height="90" width="210" x="-130" y="880" as="geometry" />
         </mxCell>
       </root>
