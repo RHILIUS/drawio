@@ -458,7 +458,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pytm36BFgs9ngDyivdyl" name="User">
-    <mxGraphModel dx="1756" dy="1775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1522" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -891,7 +891,7 @@
             <mxRectangle height="50" width="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wxIhW8X2h-W28_9txSy_-7" parent="wxIhW8X2h-W28_9txSy_-5" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="type (event_starting_soon,&amp;nbsp;new_event_matching_your_interests,&amp;nbsp;&amp;nbsp;&lt;div&gt;registration_confirmed,&amp;nbsp;event_details_updated,&amp;nbsp;dont_forget)&lt;/div&gt;" vertex="1">
+        <mxCell id="wxIhW8X2h-W28_9txSy_-7" parent="wxIhW8X2h-W28_9txSy_-5" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="notification_type (event_starting_soon,&amp;nbsp;new_event_matching_your_interests,&amp;nbsp;&amp;nbsp;&lt;div&gt;registration_confirmed,&amp;nbsp;event_details_updated,&amp;nbsp;dont_forget)&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="360" x="30" as="geometry">
             <mxRectangle height="50" width="360" as="alternateBounds" />
           </mxGeometry>
