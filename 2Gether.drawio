@@ -627,7 +627,7 @@
         <mxCell id="w6XcAiHiQ8ZTCnj28DBF-76" edge="1" parent="1" source="w6XcAiHiQ8ZTCnj28DBF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=0;" target="w6XcAiHiQ8ZTCnj28DBF-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6teieXoR2F2XWATxy8vp-1" parent="1" style="shape=table;startSize=20;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="event" vertex="1">
+        <mxCell id="6teieXoR2F2XWATxy8vp-1" parent="1" style="shape=table;startSize=20;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="api_event" vertex="1">
           <mxGeometry height="560" width="350" x="640" y="40" as="geometry" />
         </mxCell>
         <mxCell id="6teieXoR2F2XWATxy8vp-2" parent="6teieXoR2F2XWATxy8vp-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
