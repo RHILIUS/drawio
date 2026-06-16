@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="All" id="9IABRp3VmV2uKprqtUD8">
-    <mxGraphModel dx="983" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2079" dy="970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GHI6tvXvi_pXsVdc0Aab-2" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="ecommerce_cart" vertex="1">
-          <mxGeometry height="90" width="180" x="635" y="150" as="geometry" />
+          <mxGeometry height="90" width="180" x="65" y="80" as="geometry" />
         </mxCell>
         <mxCell id="GHI6tvXvi_pXsVdc0Aab-3" parent="GHI6tvXvi_pXsVdc0Aab-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
           <mxGeometry height="30" width="180" y="30" as="geometry" />
@@ -34,7 +34,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GHI6tvXvi_pXsVdc0Aab-9" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="ecommerce_product" vertex="1">
-          <mxGeometry height="180" width="180" x="1100" y="260" as="geometry" />
+          <mxGeometry height="180" width="180" x="530" y="190" as="geometry" />
         </mxCell>
         <mxCell id="GHI6tvXvi_pXsVdc0Aab-10" parent="GHI6tvXvi_pXsVdc0Aab-9" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
           <mxGeometry height="30" width="180" y="30" as="geometry" />
@@ -102,7 +102,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GHI6tvXvi_pXsVdc0Aab-25" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="auth_user" vertex="1">
-          <mxGeometry height="180" width="180" x="510" y="440" as="geometry" />
+          <mxGeometry height="180" width="180" x="-60" y="370" as="geometry" />
         </mxCell>
         <mxCell id="GHI6tvXvi_pXsVdc0Aab-26" parent="GHI6tvXvi_pXsVdc0Aab-25" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
           <mxGeometry height="30" width="180" y="30" as="geometry" />
@@ -170,7 +170,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GHI6tvXvi_pXsVdc0Aab-41" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="ecommerce_cartitem" vertex="1">
-          <mxGeometry height="150" width="180" x="870" y="120" as="geometry" />
+          <mxGeometry height="150" width="180" x="300" y="50" as="geometry" />
         </mxCell>
         <mxCell id="GHI6tvXvi_pXsVdc0Aab-42" parent="GHI6tvXvi_pXsVdc0Aab-41" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
           <mxGeometry height="30" width="180" y="30" as="geometry" />
@@ -234,7 +234,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GHI6tvXvi_pXsVdc0Aab-57" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="ecommerce_order" vertex="1">
-          <mxGeometry height="150" width="180" x="770" y="630" as="geometry" />
+          <mxGeometry height="150" width="180" x="200" y="560" as="geometry" />
         </mxCell>
         <mxCell id="GHI6tvXvi_pXsVdc0Aab-58" parent="GHI6tvXvi_pXsVdc0Aab-57" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
           <mxGeometry height="30" width="180" y="30" as="geometry" />
@@ -290,11 +290,11 @@
         </mxCell>
         <mxCell id="GHI6tvXvi_pXsVdc0Aab-70" edge="1" parent="1" source="GHI6tvXvi_pXsVdc0Aab-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="GHI6tvXvi_pXsVdc0Aab-61">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="525" as="sourcePoint" />
+            <mxPoint x="-110" y="455" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GHI6tvXvi_pXsVdc0Aab-71" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="ecommerce_orderitem" vertex="1">
-          <mxGeometry height="180" width="180" x="1030" y="590" as="geometry" />
+          <mxGeometry height="180" width="180" x="460" y="520" as="geometry" />
         </mxCell>
         <mxCell id="GHI6tvXvi_pXsVdc0Aab-72" parent="GHI6tvXvi_pXsVdc0Aab-71" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
           <mxGeometry height="30" width="180" y="30" as="geometry" />
@@ -366,7 +366,7 @@
         </mxCell>
         <mxCell id="GHI6tvXvi_pXsVdc0Aab-88" edge="1" parent="1" source="GHI6tvXvi_pXsVdc0Aab-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;startArrow=ERzeroToOne;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="GHI6tvXvi_pXsVdc0Aab-75">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1270" y="515" as="sourcePoint" />
+            <mxPoint x="700" y="445" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
@@ -623,12 +623,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="i3ECUxRiv8LIPa6aw2FU" name="Order a product">
-    <mxGraphModel dx="1638" dy="1293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="983" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xrmxiUTT16JXuU0GOB0c-1" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="auth_user" vertex="1">
-          <mxGeometry height="180" width="180" x="840" y="350" as="geometry" />
+          <mxGeometry height="180" width="180" x="10" y="300" as="geometry" />
         </mxCell>
         <mxCell id="xrmxiUTT16JXuU0GOB0c-2" parent="xrmxiUTT16JXuU0GOB0c-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
           <mxGeometry height="30" width="180" y="30" as="geometry" />
@@ -696,7 +696,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xrmxiUTT16JXuU0GOB0c-17" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="ecommerce_order" vertex="1">
-          <mxGeometry height="150" width="180" x="1090" y="460" as="geometry" />
+          <mxGeometry height="150" width="180" x="260" y="410" as="geometry" />
         </mxCell>
         <mxCell id="xrmxiUTT16JXuU0GOB0c-18" parent="xrmxiUTT16JXuU0GOB0c-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
           <mxGeometry height="30" width="180" y="30" as="geometry" />
@@ -754,7 +754,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xrmxiUTT16JXuU0GOB0c-31" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="ecommerce_orderitem" vertex="1">
-          <mxGeometry height="180" width="180" x="1340" y="310" as="geometry" />
+          <mxGeometry height="180" width="180" x="510" y="260" as="geometry" />
         </mxCell>
         <mxCell id="xrmxiUTT16JXuU0GOB0c-32" parent="xrmxiUTT16JXuU0GOB0c-31" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
           <mxGeometry height="30" width="180" y="30" as="geometry" />
@@ -825,7 +825,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xrmxiUTT16JXuU0GOB0c-48" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" value="ecommerce_product" vertex="1">
-          <mxGeometry height="180" width="180" x="1610" y="410" as="geometry" />
+          <mxGeometry height="180" width="180" x="780" y="360" as="geometry" />
         </mxCell>
         <mxCell id="xrmxiUTT16JXuU0GOB0c-49" parent="xrmxiUTT16JXuU0GOB0c-48" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
           <mxGeometry height="30" width="180" y="30" as="geometry" />
