@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Use-Case Diagram" id="Di_wp4sIphQupbwy5aDl">
-    <mxGraphModel dx="855" dy="1775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="873" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pAWzSFht-dwJtQ7ogooH-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="640" width="325" x="215" y="-20" as="geometry" />
+          <mxGeometry height="520" width="325" x="215" y="-20" as="geometry" />
         </mxCell>
         <mxCell id="pAWzSFht-dwJtQ7ogooH-20" edge="1" parent="1" source="pAWzSFht-dwJtQ7ogooH-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pAWzSFht-dwJtQ7ogooH-4">
           <mxGeometry relative="1" as="geometry" />
@@ -31,9 +31,6 @@
         <mxCell id="pAWzSFht-dwJtQ7ogooH-31" edge="1" parent="1" source="pAWzSFht-dwJtQ7ogooH-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="pAWzSFht-dwJtQ7ogooH-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pAWzSFht-dwJtQ7ogooH-32" edge="1" parent="1" source="pAWzSFht-dwJtQ7ogooH-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="pAWzSFht-dwJtQ7ogooH-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="pAWzSFht-dwJtQ7ogooH-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" value="Shopkeeper" vertex="1">
           <mxGeometry height="60" width="30" x="640" y="90" as="geometry" />
         </mxCell>
@@ -50,13 +47,10 @@
           <mxGeometry height="70" width="155" x="297.5" y="240" as="geometry" />
         </mxCell>
         <mxCell id="pAWzSFht-dwJtQ7ogooH-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Manage products (CRUD)" vertex="1">
-          <mxGeometry height="70" width="155" x="300" y="400" as="geometry" />
+          <mxGeometry height="70" width="155" x="292.5" y="400" as="geometry" />
         </mxCell>
         <mxCell id="pAWzSFht-dwJtQ7ogooH-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Checkout products" vertex="1">
           <mxGeometry height="70" width="155" x="297.5" y="320" as="geometry" />
-        </mxCell>
-        <mxCell id="pAWzSFht-dwJtQ7ogooH-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Manage products (CRUD)" vertex="1">
-          <mxGeometry height="70" width="155" x="297.5" y="480" as="geometry" />
         </mxCell>
         <mxCell id="pAWzSFht-dwJtQ7ogooH-22" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="pAWzSFht-dwJtQ7ogooH-4">
           <mxGeometry relative="1" as="geometry">
