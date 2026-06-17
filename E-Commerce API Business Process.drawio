@@ -54,7 +54,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="F9KMArvzywy_5_pXjs8r-40" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;container=0;" value="Credentials valid?" vertex="1">
-          <mxGeometry height="103.79" width="110" x="-75" y="1320" as="geometry" />
+          <mxGeometry height="103.79" width="110" x="-75" y="1350" as="geometry" />
         </mxCell>
         <mxCell id="F9KMArvzywy_5_pXjs8r-41" edge="1" parent="1" source="F9KMArvzywy_5_pXjs8r-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="F9KMArvzywy_5_pXjs8r-40">
           <mxGeometry relative="1" as="geometry" />
@@ -96,7 +96,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="F9KMArvzywy_5_pXjs8r-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Issue JWT tokens&lt;br&gt;Access &amp;amp; refresh tokens" vertex="1">
-          <mxGeometry height="70" width="140" x="310" y="1410" as="geometry" />
+          <mxGeometry height="70" width="140" x="307.5" y="1383.79" as="geometry" />
         </mxCell>
         <mxCell id="F9KMArvzywy_5_pXjs8r-69" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Redirect to /home/" vertex="1">
           <mxGeometry height="60" width="100" x="333" y="840" as="geometry" />
