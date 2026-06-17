@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="User Login Process" id="UIlVx-N6pBm2TEacQP6A">
-    <mxGraphModel dx="2239" dy="1062" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1853" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,28 +8,28 @@
           <mxGeometry height="408.58" width="350" x="-270" y="561.42" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;horizontal=1;" value="&lt;h1&gt;User Login Process&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="180" x="370" y="420" as="geometry" />
+          <mxGeometry height="50" width="180" x="230" y="460" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-44" connectable="0" parent="1" style="group;horizontal=0;" value="" vertex="1">
-          <mxGeometry height="790" width="470" x="150" y="550" as="geometry" />
+          <mxGeometry height="903.7878787878788" width="470" x="100" y="570" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-54" connectable="0" parent="Lgp81qHp5EZIwmOI8bYD-44" style="group" value="" vertex="1">
-          <mxGeometry height="790" width="470" as="geometry" />
+          <mxGeometry height="903.7878787878788" width="470" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-55" connectable="0" parent="Lgp81qHp5EZIwmOI8bYD-54" style="group" value="" vertex="1">
-          <mxGeometry height="790" width="470" as="geometry" />
+          <mxGeometry height="903.7878787878788" width="470" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-56" connectable="0" parent="Lgp81qHp5EZIwmOI8bYD-55" style="group" value="" vertex="1">
-          <mxGeometry height="790" width="470" as="geometry" />
+          <mxGeometry height="903.7878787878788" width="470" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-57" connectable="0" parent="Lgp81qHp5EZIwmOI8bYD-56" style="group" value="" vertex="1">
-          <mxGeometry height="790" width="470" as="geometry" />
+          <mxGeometry height="903.7878787878788" width="470" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-42" parent="Lgp81qHp5EZIwmOI8bYD-57" style="rounded=0;whiteSpace=wrap;html=1;container=1;" value="" vertex="1">
           <mxGeometry height="83.7878787878788" width="470" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-48" connectable="0" parent="Lgp81qHp5EZIwmOI8bYD-57" style="group" value="" vertex="1">
-          <mxGeometry height="706.2121212121212" width="470" y="83.7878787878788" as="geometry" />
+          <mxGeometry height="820" width="470" y="83.7878787878788" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-43" parent="Lgp81qHp5EZIwmOI8bYD-48" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="706.2121212121212" width="400" x="70" as="geometry" />
@@ -38,16 +38,16 @@
           <mxGeometry height="706.2121212121212" width="70" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-49" parent="Lgp81qHp5EZIwmOI8bYD-48" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" value="&lt;h2&gt;FRONTEND&lt;/h2&gt;" vertex="1">
-          <mxGeometry height="380" width="70" as="geometry" />
+          <mxGeometry height="460" width="70" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-50" parent="Lgp81qHp5EZIwmOI8bYD-48" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="380" width="400" x="70" as="geometry" />
+          <mxGeometry height="460" width="400" x="70" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-51" parent="Lgp81qHp5EZIwmOI8bYD-48" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" value="&lt;h2&gt;BACKEND&lt;/h2&gt;" vertex="1">
-          <mxGeometry height="326.21" width="70" y="380" as="geometry" />
+          <mxGeometry height="370" width="70" y="450" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-52" parent="Lgp81qHp5EZIwmOI8bYD-48" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="326.21" width="400" x="70" y="380" as="geometry" />
+          <mxGeometry height="370" width="400" x="70" y="450" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-53" edge="1" parent="Lgp81qHp5EZIwmOI8bYD-48" source="Lgp81qHp5EZIwmOI8bYD-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Lgp81qHp5EZIwmOI8bYD-29" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -58,13 +58,57 @@
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-29" parent="Lgp81qHp5EZIwmOI8bYD-48" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="User Enters Credentials&lt;br&gt;(Username, Password)" vertex="1">
           <mxGeometry height="71.81818181818183" width="195" x="137.5" y="106.21666666666668" as="geometry" />
         </mxCell>
+        <mxCell id="Lgp81qHp5EZIwmOI8bYD-82" parent="Lgp81qHp5EZIwmOI8bYD-48" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;" value="Frontend validation" vertex="1">
+          <mxGeometry height="60" width="155" x="157.5" y="206.21" as="geometry" />
+        </mxCell>
+        <mxCell id="Lgp81qHp5EZIwmOI8bYD-83" edge="1" parent="Lgp81qHp5EZIwmOI8bYD-48" source="Lgp81qHp5EZIwmOI8bYD-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Lgp81qHp5EZIwmOI8bYD-82" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lgp81qHp5EZIwmOI8bYD-90" edge="1" parent="Lgp81qHp5EZIwmOI8bYD-48" source="Lgp81qHp5EZIwmOI8bYD-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Lgp81qHp5EZIwmOI8bYD-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lgp81qHp5EZIwmOI8bYD-97" connectable="0" parent="Lgp81qHp5EZIwmOI8bYD-90" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="0.0992" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lgp81qHp5EZIwmOI8bYD-100" edge="1" parent="Lgp81qHp5EZIwmOI8bYD-48" source="Lgp81qHp5EZIwmOI8bYD-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Lgp81qHp5EZIwmOI8bYD-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lgp81qHp5EZIwmOI8bYD-85" parent="Lgp81qHp5EZIwmOI8bYD-48" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;" value="Credentials Valid?" vertex="1">
+          <mxGeometry height="80" width="95" x="187.5" y="296.21212121212125" as="geometry" />
+        </mxCell>
+        <mxCell id="Lgp81qHp5EZIwmOI8bYD-86" edge="1" parent="Lgp81qHp5EZIwmOI8bYD-48" source="Lgp81qHp5EZIwmOI8bYD-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Lgp81qHp5EZIwmOI8bYD-85" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lgp81qHp5EZIwmOI8bYD-96" edge="1" parent="Lgp81qHp5EZIwmOI8bYD-48" source="Lgp81qHp5EZIwmOI8bYD-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Lgp81qHp5EZIwmOI8bYD-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="241" />
+              <mxPoint x="380" y="241" />
+              <mxPoint x="380" y="142" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lgp81qHp5EZIwmOI8bYD-89" parent="Lgp81qHp5EZIwmOI8bYD-48" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="Show Error" vertex="1">
+          <mxGeometry height="63.21" width="137.5" x="312.5" y="304.61" as="geometry" />
+        </mxCell>
+        <mxCell id="Lgp81qHp5EZIwmOI8bYD-102" edge="1" parent="Lgp81qHp5EZIwmOI8bYD-48" source="Lgp81qHp5EZIwmOI8bYD-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Lgp81qHp5EZIwmOI8bYD-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lgp81qHp5EZIwmOI8bYD-98" parent="Lgp81qHp5EZIwmOI8bYD-48" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;" value="Backend validation" vertex="1">
+          <mxGeometry height="60" width="155" x="157.5" y="476.21000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="Lgp81qHp5EZIwmOI8bYD-99" parent="Lgp81qHp5EZIwmOI8bYD-48" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;" value="Credentials Valid?" vertex="1">
+          <mxGeometry height="80" width="95" x="187.5" y="556.2121212121212" as="geometry" />
+        </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-65" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="530" width="290" x="-242.5" y="600" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;b&gt;FRONTEND VALIDATION&lt;/b&gt;" vertex="1">
           <mxGeometry height="42.85714285714286" width="225" x="-210" y="569.9957142857144" as="geometry" />
         </mxCell>
-        <mxCell id="Lgp81qHp5EZIwmOI8bYD-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;div&gt;Username&lt;/div&gt;&lt;div&gt;1. Required (not empty, trimmed of leading/trailing whitespace)&lt;/div&gt;&lt;div&gt;2. Minimum length (e.g. 3 characters)&lt;/div&gt;&lt;div&gt;3. Maximum length (e.g. 20–30 characters)&lt;/div&gt;&lt;div&gt;4. Allowed characters only: letters, numbers, underscore, hyphen, period (regex like ^[a-zA-Z0-9_.-]+$)&lt;/div&gt;&lt;div&gt;5. No spaces&lt;/div&gt;&lt;div&gt;6. Must start with a letter or number (not a symbol)&lt;/div&gt;&lt;div&gt;7. No consecutive special characters (e.g. __, ..)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Password&lt;/div&gt;&lt;div&gt;1. Required (not empty)&lt;/div&gt;&lt;div&gt;2. Minimum length (e.g. 8–12 characters)&lt;/div&gt;&lt;div&gt;3. Maximum length cap (e.g. 64–128 characters, just to prevent absurdly long input, not to restrict security)&lt;/div&gt;&lt;div&gt;4. No character-type restrictions (don’t block special characters or spaces)&lt;/div&gt;&lt;div&gt;5. Optional: real-time strength indicator (weak/medium/strong) based on length and variety, shown as a hint rather than a hard block&lt;/div&gt;&lt;div&gt;6. Confirm password field matches (if you have a signup form, not strictly needed for login)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="Lgp81qHp5EZIwmOI8bYD-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;div&gt;Username&lt;/div&gt;&lt;div&gt;1. Required (not empty, trimmed of leading/trailing whitespace)&lt;/div&gt;&lt;div&gt;2. Minimum length (e.g. 3 characters)&lt;/div&gt;&lt;div&gt;3. Maximum length (e.g. 20–30 characters)&lt;/div&gt;&lt;div&gt;4. Allowed characters only: letters, numbers, underscore, hyphen, period (regex like ^[a-zA-Z0-9_.-]+$)&lt;/div&gt;&lt;div&gt;5. No spaces&lt;/div&gt;&lt;div&gt;6. Must start with a letter or number (not a symbol)&lt;/div&gt;&lt;div&gt;7. No consecutive special characters (e.g. __, ..)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Password&lt;/div&gt;&lt;div&gt;1. Required (not empty)&lt;/div&gt;&lt;div&gt;2. Minimum length (e.g. 8–12 characters)&lt;/div&gt;&lt;div&gt;3. Maximum length cap (e.g. 64–128 characters, just to prevent absurdly long input, not to restrict security)&lt;/div&gt;&lt;div&gt;4. No character-type restrictions (don’t block special characters or spaces)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="367.15" width="290" x="-230" y="600" as="geometry" />
         </mxCell>
       </root>
