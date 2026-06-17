@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="User Login Process" id="UIlVx-N6pBm2TEacQP6A">
-    <mxGraphModel dx="2355" dy="1207" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1853" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,9 +43,9 @@
         <mxCell id="F9KMArvzywy_5_pXjs8r-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;container=0;" value="Checks validity" vertex="1">
           <mxGeometry height="53.79" width="132.5" x="-86.25" y="1239.9978787878788" as="geometry" />
         </mxCell>
-        <mxCell id="F9KMArvzywy_5_pXjs8r-43" edge="1" parent="1" source="F9KMArvzywy_5_pXjs8r-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.471;entryY=0.976;entryDx=0;entryDy=0;entryPerimeter=0;" target="F9KMArvzywy_5_pXjs8r-46">
+        <mxCell id="F9KMArvzywy_5_pXjs8r-43" edge="1" parent="1" source="F9KMArvzywy_5_pXjs8r-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.413;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="F9KMArvzywy_5_pXjs8r-79">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="1160" as="targetPoint" />
+            <mxPoint x="111.51999999999998" y="1150.56" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="F9KMArvzywy_5_pXjs8r-56" connectable="0" parent="F9KMArvzywy_5_pXjs8r-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
@@ -58,9 +58,6 @@
         </mxCell>
         <mxCell id="F9KMArvzywy_5_pXjs8r-41" edge="1" parent="1" source="F9KMArvzywy_5_pXjs8r-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="F9KMArvzywy_5_pXjs8r-40">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="F9KMArvzywy_5_pXjs8r-46" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;container=0;" value="Show Error&lt;br&gt;(Invalid Credentials)" vertex="1">
-          <mxGeometry height="60" width="120" x="55" y="1092" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;container=0;" value="&lt;h2&gt;FRONTEND&lt;/h2&gt;" vertex="1">
           <mxGeometry height="450" width="70" x="-255" y="753.7878787878788" as="geometry" />
@@ -115,6 +112,16 @@
         </mxCell>
         <mxCell id="F9KMArvzywy_5_pXjs8r-66" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="Save access &amp;amp; refresh tokens on local storage" vertex="1">
           <mxGeometry height="120" width="135" x="310" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="F9KMArvzywy_5_pXjs8r-80" edge="1" parent="1" source="F9KMArvzywy_5_pXjs8r-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.859;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;" target="Lgp81qHp5EZIwmOI8bYD-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F9KMArvzywy_5_pXjs8r-79" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="Show Error&lt;br&gt;(Invalid Credentials)" vertex="1">
+          <mxGeometry height="70" width="160" x="50" y="1080" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
