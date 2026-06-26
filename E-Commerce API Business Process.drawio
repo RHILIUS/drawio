@@ -129,15 +129,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="acqbvta_AMhU5p7Tht1i" name="auth_logout-process">
-    <mxGraphModel dx="766" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1468" dy="1207" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5ih1LVjYDP-ac_wQxg3E-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1260" width="1060" x="30" y="100" as="geometry" />
+        </mxCell>
         <mxCell id="Yr0jxduTB3A6eynm1q5x-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;" vertex="1">
           <mxGeometry height="560" width="450" x="560" y="740" as="geometry" />
         </mxCell>
         <mxCell id="zO0JzaqHjK3WNmBV19ZZ-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;horizontal=1;" value="&lt;h1&gt;Logout Process&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="50" width="270" x="325" y="100" as="geometry" />
+          <mxGeometry height="50" width="270" x="400" y="120" as="geometry" />
         </mxCell>
         <mxCell id="2taIIKoB2ffWYa_yrKq1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;container=0;" value="&lt;h2&gt;FRONTEND&lt;/h2&gt;" vertex="1">
           <mxGeometry height="450" width="70" x="110" y="290" as="geometry" />
