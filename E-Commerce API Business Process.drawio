@@ -1,10 +1,13 @@
-<mxfile host="app.diagrams.net" pages="2">
-  <diagram name="User Login Process" id="UIlVx-N6pBm2TEacQP6A">
-    <mxGraphModel dx="1951" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram name="(Auth) Login Process" id="UIlVx-N6pBm2TEacQP6A">
+    <mxGraphModel dx="2318" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Lgp81qHp5EZIwmOI8bYD-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;horizontal=1;" value="&lt;h1&gt;User Login Process&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1130" width="1140" x="-400" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Lgp81qHp5EZIwmOI8bYD-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;horizontal=1;" value="&lt;h1&gt;Login Process&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="180" x="90" y="610" as="geometry" />
         </mxCell>
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="&lt;h1&gt;Validity Check&lt;/h1&gt;" vertex="1">
@@ -125,8 +128,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="User Signup Process" id="aDsrot8Q_njLdEo3oH_o">
-    <mxGraphModel dx="2239" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="(Auth) Sign up process" id="aDsrot8Q_njLdEo3oH_o">
+    <mxGraphModel dx="1777" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="PzCHTrndr9-paPKjK7sf-0" />
         <mxCell id="PzCHTrndr9-paPKjK7sf-1" parent="PzCHTrndr9-paPKjK7sf-0" />
@@ -145,6 +148,14 @@
         <mxCell id="PzCHTrndr9-paPKjK7sf-35" parent="PzCHTrndr9-paPKjK7sf-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;div&gt;Username&lt;/div&gt;&lt;div&gt;1. Required (not empty, trimmed of leading/trailing whitespace)&lt;/div&gt;&lt;div&gt;2. Minimum length (e.g. 3 characters)&lt;/div&gt;&lt;div&gt;3. Maximum length (e.g. 20–30 characters)&lt;/div&gt;&lt;div&gt;4. Allowed characters only: letters, numbers, underscore, hyphen, period (regex like ^[a-zA-Z0-9_.-]+$)&lt;/div&gt;&lt;div&gt;5. No spaces&lt;/div&gt;&lt;div&gt;6. Must start with a letter or number (not a symbol)&lt;/div&gt;&lt;div&gt;7. No consecutive special characters (e.g. __, ..)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Password&lt;/div&gt;&lt;div&gt;1. Required (not empty)&lt;/div&gt;&lt;div&gt;2. Minimum length (e.g. 8–12 characters)&lt;/div&gt;&lt;div&gt;3. Maximum length cap (e.g. 64–128 characters, just to prevent absurdly long input, not to restrict security)&lt;/div&gt;&lt;div&gt;4. No character-type restrictions (don’t block special characters or spaces)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="367.15" width="290" x="-230" y="600" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="acqbvta_AMhU5p7Tht1i" name="(Auth) Logout Process">
+    <mxGraphModel dx="881" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
