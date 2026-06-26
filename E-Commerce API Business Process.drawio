@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
-  <diagram name="(Auth) Login Process" id="UIlVx-N6pBm2TEacQP6A">
-    <mxGraphModel dx="2318" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="auth_login-process" id="UIlVx-N6pBm2TEacQP6A">
+    <mxGraphModel dx="2612" dy="1380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,7 +128,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="(Auth) Sign up process" id="aDsrot8Q_njLdEo3oH_o">
+  <diagram name="aut_signup-process" id="aDsrot8Q_njLdEo3oH_o">
     <mxGraphModel dx="1777" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="PzCHTrndr9-paPKjK7sf-0" />
@@ -151,7 +151,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="acqbvta_AMhU5p7Tht1i" name="(Auth) Logout Process">
+  <diagram id="acqbvta_AMhU5p7Tht1i" name="auth_logout-process">
     <mxGraphModel dx="881" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
