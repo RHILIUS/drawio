@@ -129,7 +129,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="acqbvta_AMhU5p7Tht1i" name="auth_logout-process">
-    <mxGraphModel dx="734" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="766" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -183,23 +183,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yr0jxduTB3A6eynm1q5x-37" edge="1" parent="1" source="Yr0jxduTB3A6eynm1q5x-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="Yr0jxduTB3A6eynm1q5x-36">
+        <mxCell id="Yr0jxduTB3A6eynm1q5x-39" edge="1" parent="1" source="Yr0jxduTB3A6eynm1q5x-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Yr0jxduTB3A6eynm1q5x-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GgUgzBbaOwKX2_CuLh6W-5" edge="1" parent="1" source="Yr0jxduTB3A6eynm1q5x-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.031;entryY=0.67;entryDx=0;entryDy=0;entryPerimeter=0;" target="GgUgzBbaOwKX2_CuLh6W-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="312" y="1140" />
-              <mxPoint x="630" y="1140" />
-              <mxPoint x="630" y="1150" />
-              <mxPoint x="910" y="1150" />
+              <mxPoint x="312" y="1120" />
+              <mxPoint x="497" y="1120" />
+              <mxPoint x="497" y="1117" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yr0jxduTB3A6eynm1q5x-38" connectable="0" parent="Yr0jxduTB3A6eynm1q5x-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
-          <mxGeometry relative="1" x="0.009" y="3" as="geometry">
+        <mxCell id="GgUgzBbaOwKX2_CuLh6W-7" connectable="0" parent="GgUgzBbaOwKX2_CuLh6W-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="0.0361" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Yr0jxduTB3A6eynm1q5x-39" edge="1" parent="1" source="Yr0jxduTB3A6eynm1q5x-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Yr0jxduTB3A6eynm1q5x-33" value="">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Yr0jxduTB3A6eynm1q5x-14" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="refresh_token valid?" vertex="1">
           <mxGeometry height="120" width="124" x="250" y="970" as="geometry" />
@@ -219,12 +218,6 @@
         <mxCell id="Yr0jxduTB3A6eynm1q5x-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Blacklist the refreshtoken" vertex="1">
           <mxGeometry height="100" width="100" x="450" y="890" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0jxduTB3A6eynm1q5x-48" edge="1" parent="1" source="Yr0jxduTB3A6eynm1q5x-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.648;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;" target="GgUgzBbaOwKX2_CuLh6W-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Yr0jxduTB3A6eynm1q5x-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" value="Return a 400 Bad request error and the detail of the exception as string" vertex="1">
-          <mxGeometry height="100" width="100" x="850" y="830" as="geometry" />
-        </mxCell>
         <mxCell id="Yr0jxduTB3A6eynm1q5x-47" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" target="GgUgzBbaOwKX2_CuLh6W-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -234,8 +227,8 @@
             <mxPoint x="900" y="645" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yr0jxduTB3A6eynm1q5x-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" value="Return a 200 OK response&lt;br&gt;&quot;Logout Successful&quot;" vertex="1">
-          <mxGeometry height="100" width="100" x="670" y="830" as="geometry" />
+        <mxCell id="Yr0jxduTB3A6eynm1q5x-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" value="Return a 200 OK response&lt;br&gt;&quot;Logout Successful&quot;&lt;br&gt;&lt;br&gt;Set-Cookie header to remove refresh_token" vertex="1">
+          <mxGeometry height="140" width="100" x="670" y="830" as="geometry" />
         </mxCell>
         <mxCell id="Yr0jxduTB3A6eynm1q5x-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Redirected to login page" vertex="1">
           <mxGeometry height="100" width="100" x="710" y="440" as="geometry" />
@@ -251,6 +244,12 @@
         </mxCell>
         <mxCell id="GgUgzBbaOwKX2_CuLh6W-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="Remove the access_token" vertex="1">
           <mxGeometry height="90" width="90" x="810" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="GgUgzBbaOwKX2_CuLh6W-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Catch the error and pass" vertex="1">
+          <mxGeometry height="100" width="100" x="660" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="GgUgzBbaOwKX2_CuLh6W-6" edge="1" parent="1" source="GgUgzBbaOwKX2_CuLh6W-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.437;entryY=0.984;entryDx=0;entryDy=0;entryPerimeter=0;" target="Yr0jxduTB3A6eynm1q5x-41">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
