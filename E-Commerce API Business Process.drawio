@@ -128,6 +128,38 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="acqbvta_AMhU5p7Tht1i" name="auth_logout-process">
+    <mxGraphModel dx="839" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zO0JzaqHjK3WNmBV19ZZ-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;horizontal=1;" value="&lt;h1&gt;Logout Process&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="50" width="270" x="320" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="2taIIKoB2ffWYa_yrKq1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;container=0;" value="&lt;h2&gt;FRONTEND&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="450" width="70" x="110" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="2taIIKoB2ffWYa_yrKq1-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;container=0;" value="&lt;h2&gt;BACKEND&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="370" width="70" x="110" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="DAjTCsulu9mgbd1rLIM3-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;container=0;" value="&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="450" width="380" x="180" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="DAjTCsulu9mgbd1rLIM3-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;container=0;" value="&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="370" width="380" x="180" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="DAjTCsulu9mgbd1rLIM3-4" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="&lt;b&gt;User opens home page&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="125" x="295" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="P3GJcwTnM-zhmMOSN9lA-1" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="&lt;b&gt;User clicks on&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;logout button&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="150" x="275" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="P3GJcwTnM-zhmMOSN9lA-2" edge="1" parent="1" source="DAjTCsulu9mgbd1rLIM3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.542;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" target="P3GJcwTnM-zhmMOSN9lA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="auth_signup-process" id="aDsrot8Q_njLdEo3oH_o">
     <mxGraphModel dx="1777" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -148,14 +180,6 @@
         <mxCell id="PzCHTrndr9-paPKjK7sf-35" parent="PzCHTrndr9-paPKjK7sf-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;div&gt;Username&lt;/div&gt;&lt;div&gt;1. Required (not empty, trimmed of leading/trailing whitespace)&lt;/div&gt;&lt;div&gt;2. Minimum length (e.g. 3 characters)&lt;/div&gt;&lt;div&gt;3. Maximum length (e.g. 20–30 characters)&lt;/div&gt;&lt;div&gt;4. Allowed characters only: letters, numbers, underscore, hyphen, period (regex like ^[a-zA-Z0-9_.-]+$)&lt;/div&gt;&lt;div&gt;5. No spaces&lt;/div&gt;&lt;div&gt;6. Must start with a letter or number (not a symbol)&lt;/div&gt;&lt;div&gt;7. No consecutive special characters (e.g. __, ..)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Password&lt;/div&gt;&lt;div&gt;1. Required (not empty)&lt;/div&gt;&lt;div&gt;2. Minimum length (e.g. 8–12 characters)&lt;/div&gt;&lt;div&gt;3. Maximum length cap (e.g. 64–128 characters, just to prevent absurdly long input, not to restrict security)&lt;/div&gt;&lt;div&gt;4. No character-type restrictions (don’t block special characters or spaces)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="367.15" width="290" x="-230" y="600" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="acqbvta_AMhU5p7Tht1i" name="auth_logout-process">
-    <mxGraphModel dx="881" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
