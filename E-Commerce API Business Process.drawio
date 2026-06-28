@@ -258,7 +258,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="auth_signup-process" id="aDsrot8Q_njLdEo3oH_o">
-    <mxGraphModel dx="3367" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1295" dy="337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="PzCHTrndr9-paPKjK7sf-0" />
         <mxCell id="PzCHTrndr9-paPKjK7sf-1" parent="PzCHTrndr9-paPKjK7sf-0" />
@@ -283,7 +283,7 @@
         <mxCell id="PzCHTrndr9-paPKjK7sf-34" parent="cN-EgHzJ01b6PA8da4ud-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;b&gt;INPUT FIELDS VALIDATION&lt;/b&gt;" vertex="1">
           <mxGeometry height="42.85714285714286" width="225" x="60" y="8.575714285714412" as="geometry" />
         </mxCell>
-        <mxCell id="PzCHTrndr9-paPKjK7sf-35" parent="cN-EgHzJ01b6PA8da4ud-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;div&gt;Username&lt;/div&gt;&lt;div&gt;1. Required (not empty, trimmed of leading/trailing whitespace)&lt;/div&gt;&lt;div&gt;2. Minimum length (e.g. 3 characters)&lt;/div&gt;&lt;div&gt;3. Maximum length (e.g. 20–30 characters)&lt;/div&gt;&lt;div&gt;4. Allowed characters only: letters, numbers, underscore, hyphen, period (regex like ^[a-zA-Z0-9_.-]+$)&lt;/div&gt;&lt;div&gt;5. No spaces&lt;/div&gt;&lt;div&gt;6. Must start with a letter or number (not a symbol)&lt;/div&gt;&lt;div&gt;7. No consecutive special characters (e.g. __, ..)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Password&lt;/div&gt;&lt;div&gt;1. Required (not empty)&lt;/div&gt;&lt;div&gt;2. Minimum length (e.g. 8–12 characters)&lt;/div&gt;&lt;div&gt;3. Maximum length cap (e.g. 64–128 characters, just to prevent absurdly long input, not to restrict security)&lt;/div&gt;&lt;div&gt;4. No character-type restrictions (don’t block special characters or spaces)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="PzCHTrndr9-paPKjK7sf-35" parent="cN-EgHzJ01b6PA8da4ud-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;div&gt;Username&lt;/div&gt;&lt;div&gt;1. Required (not empty, trimmed of leading/trailing whitespace)&lt;/div&gt;&lt;div&gt;2. Minimum length (3 characters)&lt;/div&gt;&lt;div&gt;3. Maximum length (30–characters)&lt;/div&gt;&lt;div&gt;4. Allowed characters only: letters, numbers, underscore, hyphen, period (regex like ^[a-zA-Z0-9_.-]+$)&lt;/div&gt;&lt;div&gt;5. No spaces&lt;/div&gt;&lt;div&gt;6. Must start with a letter or number (not a symbol)&lt;/div&gt;&lt;div&gt;7. No consecutive special characters (e.g. __, ..)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Password&lt;/div&gt;&lt;div&gt;1. Required (not empty)&lt;/div&gt;&lt;div&gt;2. Minimum length (e.g. 8–12 characters)&lt;/div&gt;&lt;div&gt;3. Maximum length cap (e.g. 64–128 characters, just to prevent absurdly long input, not to restrict security)&lt;/div&gt;&lt;div&gt;4. No character-type restrictions (don’t block special characters or spaces)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="367.15" width="290" x="40" y="38.58000000000004" as="geometry" />
         </mxCell>
         <mxCell id="yN4hD1PlxrxgJId0vFk3-0" parent="PzCHTrndr9-paPKjK7sf-1" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;container=0;" value="&lt;h2&gt;FRONTEND&lt;/h2&gt;" vertex="1">
@@ -319,7 +319,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7eh2YhITPqfgNOPuXm_D-0" parent="PzCHTrndr9-paPKjK7sf-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Input fields&amp;nbsp;&lt;div&gt;valid based on validation?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="115" width="130" x="290" y="760" as="geometry" />
+          <mxGeometry height="115" width="130" x="290" y="765" as="geometry" />
         </mxCell>
         <mxCell id="LgmREVuDiCfzC-GXqS66-2" edge="1" parent="PzCHTrndr9-paPKjK7sf-1" source="7eh2YhITPqfgNOPuXm_D-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BdqjPljhShALBiv6x0-K-12">
           <mxGeometry relative="1" as="geometry">
@@ -369,7 +369,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LgmREVuDiCfzC-GXqS66-6" parent="PzCHTrndr9-paPKjK7sf-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Validate input fields" vertex="1">
-          <mxGeometry height="100" width="155" x="277.5" y="625" as="geometry" />
+          <mxGeometry height="100" width="155" x="277.5" y="650" as="geometry" />
         </mxCell>
         <mxCell id="LgmREVuDiCfzC-GXqS66-13" edge="1" parent="PzCHTrndr9-paPKjK7sf-1" source="LgmREVuDiCfzC-GXqS66-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Z-_shaWNfzB0BQnXMT10-1">
           <mxGeometry relative="1" as="geometry">
