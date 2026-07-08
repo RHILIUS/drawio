@@ -68,7 +68,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="F9KMArvzywy_5_pXjs8r-79" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#fff2cc;strokeColor=#d6b656;" value="Show Error&lt;br&gt;(Invalid Credentials)" vertex="1">
+        <mxCell id="F9KMArvzywy_5_pXjs8r-79" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#f8cecc;strokeColor=#b85450;" value="Show Error&lt;br&gt;(Invalid Credentials)" vertex="1">
           <mxGeometry height="70" width="160" x="50" y="1080" as="geometry" />
         </mxCell>
         <mxCell id="WbQ2JXDSdDlt_u8MRvDd-3" edge="1" parent="1" source="F9KMArvzywy_5_pXjs8r-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" target="WbQ2JXDSdDlt_u8MRvDd-2" value="">
@@ -129,7 +129,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="auth_signup-process" id="aDsrot8Q_njLdEo3oH_o">
-    <mxGraphModel dx="1781" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2898" dy="1552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="PzCHTrndr9-paPKjK7sf-0" />
         <mxCell id="PzCHTrndr9-paPKjK7sf-1" parent="PzCHTrndr9-paPKjK7sf-0" />
