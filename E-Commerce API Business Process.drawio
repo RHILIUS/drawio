@@ -34,7 +34,7 @@
         <mxCell id="Lgp81qHp5EZIwmOI8bYD-29" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;container=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="User Enters Credentials&lt;br&gt;and clicked on Login Button" vertex="1">
           <mxGeometry height="71.82" width="227.5" x="-133.75" y="890" as="geometry" />
         </mxCell>
-        <mxCell id="F9KMArvzywy_5_pXjs8r-22" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;container=0;" value="Sends POST request to&amp;nbsp; api/auth/login/" vertex="1">
+        <mxCell id="F9KMArvzywy_5_pXjs8r-22" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;container=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="Sends POST request to&amp;nbsp; api/auth/login/" vertex="1">
           <mxGeometry height="60" width="120" x="-80" y="1010.0018181818182" as="geometry" />
         </mxCell>
         <mxCell id="F9KMArvzywy_5_pXjs8r-23" edge="1" parent="1" source="Lgp81qHp5EZIwmOI8bYD-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" target="F9KMArvzywy_5_pXjs8r-22" value="">
@@ -61,23 +61,23 @@
             <mxPoint x="383.00000000000045" y="1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-26" edge="1" parent="1" source="F9KMArvzywy_5_pXjs8r-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Lgp81qHp5EZIwmOI8bYD-29">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-26" edge="1" parent="1" source="F9KMArvzywy_5_pXjs8r-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" target="Lgp81qHp5EZIwmOI8bYD-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="130" y="926" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="F9KMArvzywy_5_pXjs8r-79" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Show Error&lt;br&gt;(Invalid Credentials)" vertex="1">
+        <mxCell id="F9KMArvzywy_5_pXjs8r-79" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#fff2cc;strokeColor=#d6b656;" value="Show Error&lt;br&gt;(Invalid Credentials)" vertex="1">
           <mxGeometry height="70" width="160" x="50" y="1080" as="geometry" />
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-3" edge="1" parent="1" source="F9KMArvzywy_5_pXjs8r-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WbQ2JXDSdDlt_u8MRvDd-2" value="">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-3" edge="1" parent="1" source="F9KMArvzywy_5_pXjs8r-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" target="WbQ2JXDSdDlt_u8MRvDd-2" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-20" y="1070" as="sourcePoint" />
             <mxPoint x="-20" y="1239.9978787878786" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-8" edge="1" parent="1" source="WbQ2JXDSdDlt_u8MRvDd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WbQ2JXDSdDlt_u8MRvDd-6">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-8" edge="1" parent="1" source="WbQ2JXDSdDlt_u8MRvDd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" target="WbQ2JXDSdDlt_u8MRvDd-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-20" y="1460" />
@@ -85,16 +85,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="The TokenObtainPairView processed it" vertex="1">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="The LoginView processed it" vertex="1">
           <mxGeometry height="80" width="160" x="-100" y="1220" as="geometry" />
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-21" edge="1" parent="1" source="WbQ2JXDSdDlt_u8MRvDd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WbQ2JXDSdDlt_u8MRvDd-20">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-21" edge="1" parent="1" source="WbQ2JXDSdDlt_u8MRvDd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" target="WbQ2JXDSdDlt_u8MRvDd-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="CookieTokenObtainPairView&amp;nbsp; finalize the response:&lt;br&gt;1. Set a refresh_token cookie (secure, samesite lax, httponly, path)" vertex="1">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="CookieTokenObtainPairView&amp;nbsp; finalize the response:&lt;br&gt;1. Set a refresh_token cookie (secure, samesite lax, httponly)" vertex="1">
           <mxGeometry height="98.1" width="205" x="330" y="1280.0000000000002" as="geometry" />
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-17" edge="1" parent="1" source="WbQ2JXDSdDlt_u8MRvDd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WbQ2JXDSdDlt_u8MRvDd-9">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-17" edge="1" parent="1" source="WbQ2JXDSdDlt_u8MRvDd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" target="WbQ2JXDSdDlt_u8MRvDd-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WbQ2JXDSdDlt_u8MRvDd-18" connectable="0" parent="WbQ2JXDSdDlt_u8MRvDd-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
@@ -102,27 +102,27 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-19" edge="1" parent="1" source="WbQ2JXDSdDlt_u8MRvDd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="F9KMArvzywy_5_pXjs8r-79">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-19" edge="1" parent="1" source="WbQ2JXDSdDlt_u8MRvDd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" target="F9KMArvzywy_5_pXjs8r-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Valid Credentials?" vertex="1">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Valid Credentials?" vertex="1">
           <mxGeometry height="80" width="80" x="40" y="1420" as="geometry" />
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-16" edge="1" parent="1" source="WbQ2JXDSdDlt_u8MRvDd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WbQ2JXDSdDlt_u8MRvDd-4">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-16" edge="1" parent="1" source="WbQ2JXDSdDlt_u8MRvDd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" target="WbQ2JXDSdDlt_u8MRvDd-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Generates tokens (Acess and Refresh)" vertex="1">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="Generates tokens (Acess and Refresh)" vertex="1">
           <mxGeometry height="50" width="143" x="361" y="1435" as="geometry" />
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-23" edge="1" parent="1" source="WbQ2JXDSdDlt_u8MRvDd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="WbQ2JXDSdDlt_u8MRvDd-24">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-23" edge="1" parent="1" source="WbQ2JXDSdDlt_u8MRvDd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;" target="WbQ2JXDSdDlt_u8MRvDd-24">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="432.5" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-20" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;1. Saves access token in local storage&lt;br&gt;2. Saves refresh token in cookie jar" vertex="1">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-20" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;1. Saves access token in local storage&lt;br&gt;2. Saves refresh token in cookie jar" vertex="1">
           <mxGeometry height="150" width="180" x="342.5" y="970" as="geometry" />
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-24" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="&lt;b&gt;Redirected to landing page&lt;/b&gt;" vertex="1">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-24" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Redirected to landing page&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="100" x="383" y="792" as="geometry" />
         </mxCell>
       </root>
