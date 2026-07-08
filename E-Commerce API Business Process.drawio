@@ -475,7 +475,7 @@
         <mxCell id="Yr0jxduTB3A6eynm1q5x-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="Redirected to login page" vertex="1">
           <mxGeometry height="100" width="100" x="710" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0jxduTB3A6eynm1q5x-46" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="&lt;b&gt;END&lt;/b&gt;" vertex="1">
+        <mxCell id="Yr0jxduTB3A6eynm1q5x-46" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;END&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="100" x="710" y="340" as="geometry" />
         </mxCell>
         <mxCell id="Yr0jxduTB3A6eynm1q5x-49" edge="1" parent="1" source="Yr0jxduTB3A6eynm1q5x-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="Yr0jxduTB3A6eynm1q5x-46">
