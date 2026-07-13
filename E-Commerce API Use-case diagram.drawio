@@ -62,7 +62,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QyDcIkjQeNJ-GFT1gWiU" name="Class Diagram">
-    <mxGraphModel dx="1928" dy="1917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1703" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,7 +120,7 @@
             <mxPoint x="100" y="189.99999999999977" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xYNtKlTOZckJOzk41uIu-7" connectable="0" parent="xYNtKlTOZckJOzk41uIu-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0..1" vertex="1">
+        <mxCell id="xYNtKlTOZckJOzk41uIu-7" connectable="0" parent="xYNtKlTOZckJOzk41uIu-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0..*" vertex="1">
           <mxGeometry relative="1" x="-0.868" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
