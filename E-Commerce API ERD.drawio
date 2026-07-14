@@ -1291,7 +1291,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="i3ECUxRiv8LIPa6aw2FU" name="Order a product (Checkout)">
-    <mxGraphModel dx="1781" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1669" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1912,7 +1912,7 @@
             <mxPoint x="635" y="-270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="633wHmH59dg3RwMQNLDQ-1" edge="1" parent="1" source="xrmxiUTT16JXuU0GOB0c-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="fTLNh9YvU7-u6nLCeInI-2">
+        <mxCell id="633wHmH59dg3RwMQNLDQ-1" edge="1" parent="1" source="xrmxiUTT16JXuU0GOB0c-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="fTLNh9YvU7-u6nLCeInI-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="-220" as="sourcePoint" />
             <mxPoint x="340" y="200" as="targetPoint" />
