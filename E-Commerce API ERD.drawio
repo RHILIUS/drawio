@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="All (INC)" id="9IABRp3VmV2uKprqtUD8">
-    <mxGraphModel dx="1581" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1703" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -402,7 +402,7 @@
             <mxRectangle height="50" width="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GHI6tvXvi_pXsVdc0Aab-69" parent="GHI6tvXvi_pXsVdc0Aab-67" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="status (pending, shipped, cancelled, delivered)" vertex="1">
+        <mxCell id="GHI6tvXvi_pXsVdc0Aab-69" parent="GHI6tvXvi_pXsVdc0Aab-67" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="status (pending, accepted, packed, shipped, cancelled, delivered)" vertex="1">
           <mxGeometry height="50" width="150" x="30" as="geometry">
             <mxRectangle height="50" width="150" as="alternateBounds" />
           </mxGeometry>
@@ -1343,7 +1343,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="i3ECUxRiv8LIPa6aw2FU" name="Order a product (Checkout)">
-    <mxGraphModel dx="1609" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1874" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1504,7 +1504,7 @@
             <mxRectangle height="50" width="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xrmxiUTT16JXuU0GOB0c-29" parent="xrmxiUTT16JXuU0GOB0c-27" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="status (pending, shipped, cancelled, delivered)" vertex="1">
+        <mxCell id="xrmxiUTT16JXuU0GOB0c-29" parent="xrmxiUTT16JXuU0GOB0c-27" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="status (pending, accepted, packed, shipped, cancelled, delivered)" vertex="1">
           <mxGeometry height="50" width="150" x="30" as="geometry">
             <mxRectangle height="50" width="150" as="alternateBounds" />
           </mxGeometry>
