@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page 1" id="Bj3hE3tuPlmVFyLu9TYp">
-    <mxGraphModel dx="1707" dy="1293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1098" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="QiXfHUWwl1H_9WWeM8Aj-15" edge="1" parent="QiXfHUWwl1H_9WWeM8Aj-11" source="QiXfHUWwl1H_9WWeM8Aj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QiXfHUWwl1H_9WWeM8Aj-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QiXfHUWwl1H_9WWeM8Aj-16" parent="QiXfHUWwl1H_9WWeM8Aj-11" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Packs&amp;nbsp;&lt;div&gt;the product/s&lt;/div&gt;" vertex="1">
+        <mxCell id="QiXfHUWwl1H_9WWeM8Aj-16" parent="QiXfHUWwl1H_9WWeM8Aj-11" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Packs&amp;nbsp;&lt;div&gt;the order&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="540" y="120" as="geometry" />
         </mxCell>
         <mxCell id="QiXfHUWwl1H_9WWeM8Aj-17" edge="1" parent="QiXfHUWwl1H_9WWeM8Aj-11" source="QiXfHUWwl1H_9WWeM8Aj-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="QiXfHUWwl1H_9WWeM8Aj-18">
