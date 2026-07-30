@@ -1307,7 +1307,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Class Diagram (Shipment)" id="Sbi7F2JU4ur6oLWMI-_0">
-    <mxGraphModel dx="807" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="784" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="9qUonPcouuh7HzMaM7mO-0" />
         <mxCell id="9qUonPcouuh7HzMaM7mO-1" parent="9qUonPcouuh7HzMaM7mO-0" />
@@ -1362,7 +1362,7 @@
         <mxCell id="o7WP4qPuM_5kONj2QVdd-0" parent="LpSF6dGWjwam7AIhH_jg-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ shipmentType: string&lt;div&gt;(dropoff, pickup)&lt;/div&gt;" vertex="1">
           <mxGeometry height="42" width="220" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="NTdCYS02MDE5Ay5ZlBjO-1" parent="LpSF6dGWjwam7AIhH_jg-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ status: string&lt;div&gt;(inShop, inLogistics, completed)&lt;/div&gt;" vertex="1">
+        <mxCell id="NTdCYS02MDE5Ay5ZlBjO-1" parent="LpSF6dGWjwam7AIhH_jg-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ status: string&lt;div&gt;(inShop, inLogistics, delivered)&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="220" y="120" as="geometry" />
         </mxCell>
         <mxCell id="LpSF6dGWjwam7AIhH_jg-5" parent="LpSF6dGWjwam7AIhH_jg-0" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
