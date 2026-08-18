@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="4">
   <diagram name="auth_login-process" id="UIlVx-N6pBm2TEacQP6A">
-    <mxGraphModel dx="1688" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1435" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,7 +124,7 @@
             <mxPoint x="432.5" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-20" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;1. Saves access token in local storage&lt;br&gt;2. Saves refresh token in cookie jar" vertex="1">
+        <mxCell id="WbQ2JXDSdDlt_u8MRvDd-20" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;1. Saves access token in the memory&lt;br&gt;2. Saves refresh token in cookie jar" vertex="1">
           <mxGeometry height="150" width="180" x="342.5" y="970" as="geometry" />
         </mxCell>
         <mxCell id="WbQ2JXDSdDlt_u8MRvDd-24" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Redirected to landing page&lt;/b&gt;" vertex="1">
@@ -373,7 +373,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="acqbvta_AMhU5p7Tht1i" name="auth_logout-process">
-    <mxGraphModel dx="1138" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="853" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -489,7 +489,7 @@
         <mxCell id="GgUgzBbaOwKX2_CuLh6W-2" edge="1" parent="1" source="GgUgzBbaOwKX2_CuLh6W-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" target="Yr0jxduTB3A6eynm1q5x-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GgUgzBbaOwKX2_CuLh6W-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Remove the access_token&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Deletes refresh_token also (Expired by the set_cookie response header)&lt;/div&gt;" vertex="1">
+        <mxCell id="GgUgzBbaOwKX2_CuLh6W-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;set accessToken to null in memory&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Deletes refresh_token also (Expired by the set_cookie response header)&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="150" x="810" y="570" as="geometry" />
         </mxCell>
         <mxCell id="GgUgzBbaOwKX2_CuLh6W-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="Catch the error and pass" vertex="1">
@@ -502,7 +502,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IFpjUZam-wBmQ4FYQwkk" name="auth_jwt-interceptor-process">
-    <mxGraphModel dx="853" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1280" dy="970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -686,7 +686,7 @@
         <mxCell id="xdnU96CvBrFS647AqmLN-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" value="RETURN RESPONSE&lt;div&gt;1. 401 Unauthorized&lt;br&gt;2. Delete refresh_token cookie&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="130" x="1140" y="935" as="geometry" />
         </mxCell>
-        <mxCell id="xdnU96CvBrFS647AqmLN-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;br&gt;1. Deletes access_token from local storage&lt;br&gt;2. Redirects user to /auth/login/" vertex="1">
+        <mxCell id="xdnU96CvBrFS647AqmLN-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;br&gt;1. Set accessToken state to null&lt;br&gt;2. Redirects user to /auth/login/" vertex="1">
           <mxGeometry height="120" width="140" x="1135" y="655" as="geometry" />
         </mxCell>
         <mxCell id="7GEyFqzDqP4kj3YadgSr-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;END&lt;/b&gt;" vertex="1">
@@ -707,7 +707,7 @@
         <mxCell id="7GEyFqzDqP4kj3YadgSr-11" edge="1" parent="1" source="7GEyFqzDqP4kj3YadgSr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" target="7GEyFqzDqP4kj3YadgSr-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7GEyFqzDqP4kj3YadgSr-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;1. Interceptor saves new access_token to local storage&lt;div&gt;2. Browser auto saves refresh_token to cookie jar&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="7GEyFqzDqP4kj3YadgSr-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;1. Interceptor saves new accessToken in memory&lt;div&gt;2. Browser auto saves refresh_token to cookie jar&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="165" x="1370" y="595" as="geometry" />
         </mxCell>
         <mxCell id="7GEyFqzDqP4kj3YadgSr-9" edge="1" parent="1" source="7GEyFqzDqP4kj3YadgSr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fff2cc;strokeColor=#d6b656;" target="7GEyFqzDqP4kj3YadgSr-6">
