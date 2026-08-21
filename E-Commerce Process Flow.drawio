@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="4">
+<mxfile host="app.diagrams.net" pages="5">
   <diagram name="auth_login-process" id="UIlVx-N6pBm2TEacQP6A">
     <mxGraphModel dx="1669" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -507,7 +507,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IFpjUZam-wBmQ4FYQwkk" name="auth_jwt-interceptor-process">
-    <mxGraphModel dx="1280" dy="970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="853" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -633,7 +633,7 @@
         <mxCell id="DyQAkdQzjCSxieU71Aea-31" edge="1" parent="1" source="DyQAkdQzjCSxieU71Aea-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" target="DyQAkdQzjCSxieU71Aea-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DyQAkdQzjCSxieU71Aea-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="Interceptor catches error response&amp;nbsp; and sends back a request to&lt;br&gt;/auth/token/refresh/" vertex="1">
+        <mxCell id="DyQAkdQzjCSxieU71Aea-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="Interceptor catches error response&amp;nbsp; and sends back a request to&lt;br&gt;/api/auth/refresh" vertex="1">
           <mxGeometry height="110" width="120" x="750" y="590" as="geometry" />
         </mxCell>
         <mxCell id="DyQAkdQzjCSxieU71Aea-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="TokenRefreshView catches it and validates refresh_token from cookie" vertex="1">
@@ -741,6 +741,98 @@
         </mxCell>
         <mxCell id="7GEyFqzDqP4kj3YadgSr-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;h1&gt;Normal Operation&lt;/h1&gt;" vertex="1">
           <mxGeometry height="60" width="350" x="1800" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="auth_refresh-on-mount" id="fPgpWmt8in-rQM3K38Ua">
+    <mxGraphModel dx="1077" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="smC-nINVkLWTOF9UYLsl-0" />
+        <mxCell id="smC-nINVkLWTOF9UYLsl-1" parent="smC-nINVkLWTOF9UYLsl-0" />
+        <mxCell id="wPT0-4je9wz2Ed74DkIR-0" parent="smC-nINVkLWTOF9UYLsl-1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="Refresh on-mount process" vertex="1">
+          <mxGeometry height="700" width="970" x="90" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="wPT0-4je9wz2Ed74DkIR-1" parent="wPT0-4je9wz2Ed74DkIR-0" style="swimlane;html=1;startSize=20;horizontal=0;" value="Frontend" vertex="1">
+          <mxGeometry height="200" width="970" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ftlhziwmZAmdK24AodjB-3" edge="1" parent="wPT0-4je9wz2Ed74DkIR-1" source="ftlhziwmZAmdK24AodjB-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ftlhziwmZAmdK24AodjB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ftlhziwmZAmdK24AodjB-0" parent="wPT0-4je9wz2Ed74DkIR-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="User navigates to a protected route/page" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ftlhziwmZAmdK24AodjB-1" parent="wPT0-4je9wz2Ed74DkIR-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Initialize Authentication&lt;div&gt;1. Sends request to /api/auth/refresh&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. Request contains refresh token from httpOnly cookie jar&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="190" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ofFhlesMHvXZ7-QBTPqq-7" parent="wPT0-4je9wz2Ed74DkIR-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Set loading state to false and navigates user to LoginPage" vertex="1">
+          <mxGeometry height="115" width="150" x="355" y="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UcYuyzC0k443ZCWtVJCF-3" edge="1" parent="wPT0-4je9wz2Ed74DkIR-1" source="UcYuyzC0k443ZCWtVJCF-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UcYuyzC0k443ZCWtVJCF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UcYuyzC0k443ZCWtVJCF-0" parent="wPT0-4je9wz2Ed74DkIR-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="1. Saves user object and access token in AuthContext&lt;div&gt;2. Set loading state to false&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="560" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UcYuyzC0k443ZCWtVJCF-2" parent="wPT0-4je9wz2Ed74DkIR-1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Renders the page that the user initially navigates" vertex="1">
+          <mxGeometry height="100" width="130" x="800" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Veb7k190tGxVKPP640x2-1" edge="1" parent="wPT0-4je9wz2Ed74DkIR-0" source="ftlhziwmZAmdK24AodjB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ftlhziwmZAmdK24AodjB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofFhlesMHvXZ7-QBTPqq-8" edge="1" parent="wPT0-4je9wz2Ed74DkIR-0" source="ofFhlesMHvXZ7-QBTPqq-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ofFhlesMHvXZ7-QBTPqq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wPT0-4je9wz2Ed74DkIR-4" parent="wPT0-4je9wz2Ed74DkIR-0" style="swimlane;html=1;startSize=20;horizontal=0;" value="Backend" vertex="1">
+          <mxGeometry height="480" width="970" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Veb7k190tGxVKPP640x2-0" edge="1" parent="wPT0-4je9wz2Ed74DkIR-4" source="ftlhziwmZAmdK24AodjB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CMkTnAZm6GJO0gWsLOVI-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ftlhziwmZAmdK24AodjB-4" parent="wPT0-4je9wz2Ed74DkIR-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Validates refresh&amp;nbsp; token" vertex="1">
+          <mxGeometry height="100" width="100" x="205" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ofFhlesMHvXZ7-QBTPqq-1" edge="1" parent="wPT0-4je9wz2Ed74DkIR-4" source="CMkTnAZm6GJO0gWsLOVI-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ofFhlesMHvXZ7-QBTPqq-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ofFhlesMHvXZ7-QBTPqq-2" connectable="0" parent="ofFhlesMHvXZ7-QBTPqq-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.1463" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GQz7NThDp-aM67x3VQkE-1" edge="1" parent="wPT0-4je9wz2Ed74DkIR-4" source="CMkTnAZm6GJO0gWsLOVI-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vw-mrzbada4BBZsDCa7x-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="357.53" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Zgt5axUz9pp5Mu1ewZL-1" connectable="0" parent="GQz7NThDp-aM67x3VQkE-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="0.1949" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CMkTnAZm6GJO0gWsLOVI-0" parent="wPT0-4je9wz2Ed74DkIR-4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Valid token?" vertex="1">
+          <mxGeometry height="100" width="100" x="205" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ofFhlesMHvXZ7-QBTPqq-0" parent="wPT0-4je9wz2Ed74DkIR-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="RETURN RESPONSE&lt;div&gt;1. 401 Unauthorized&lt;br&gt;2. Delete refresh_token cookie&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="360" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7Zgt5axUz9pp5Mu1ewZL-2" edge="1" parent="wPT0-4je9wz2Ed74DkIR-4" source="vw-mrzbada4BBZsDCa7x-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7Zgt5axUz9pp5Mu1ewZL-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650.05" y="357.53" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vw-mrzbada4BBZsDCa7x-0" parent="wPT0-4je9wz2Ed74DkIR-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="NEW JWT TOKENS ISSUANCE&lt;br&gt;&lt;br&gt;1. Blacklist old refresh_token&lt;br&gt;2. Rotate refresh_token&lt;div&gt;3. &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Issue new access_token and refresh_token&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="115" width="200" x="350" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7Zgt5axUz9pp5Mu1ewZL-0" parent="wPT0-4je9wz2Ed74DkIR-4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="RESPONSE&lt;div&gt;1. 200 OK&lt;/div&gt;&lt;div&gt;2. refresh_token in set_cookie header&lt;br&gt;3. access_token and user object in body&lt;/div&gt;" vertex="1">
+          <mxGeometry height="115" width="200" x="550" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="UcYuyzC0k443ZCWtVJCF-1" edge="1" parent="wPT0-4je9wz2Ed74DkIR-0" source="7Zgt5axUz9pp5Mu1ewZL-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UcYuyzC0k443ZCWtVJCF-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
