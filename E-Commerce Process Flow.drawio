@@ -745,12 +745,12 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="auth_refresh-on-mount" id="fPgpWmt8in-rQM3K38Ua">
-    <mxGraphModel dx="1077" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="auth_auth-status-redirection" id="fPgpWmt8in-rQM3K38Ua">
+    <mxGraphModel dx="1874" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="smC-nINVkLWTOF9UYLsl-0" />
         <mxCell id="smC-nINVkLWTOF9UYLsl-1" parent="smC-nINVkLWTOF9UYLsl-0" />
-        <mxCell id="wPT0-4je9wz2Ed74DkIR-0" parent="smC-nINVkLWTOF9UYLsl-1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="Refresh on-mount process" vertex="1">
+        <mxCell id="wPT0-4je9wz2Ed74DkIR-0" parent="smC-nINVkLWTOF9UYLsl-1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="Auth Status Redirection Process" vertex="1">
           <mxGeometry height="700" width="970" x="90" y="220" as="geometry" />
         </mxCell>
         <mxCell id="wPT0-4je9wz2Ed74DkIR-1" parent="wPT0-4je9wz2Ed74DkIR-0" style="swimlane;html=1;startSize=20;horizontal=0;" value="Frontend" vertex="1">
@@ -833,6 +833,9 @@
         </mxCell>
         <mxCell id="UcYuyzC0k443ZCWtVJCF-1" edge="1" parent="wPT0-4je9wz2Ed74DkIR-0" source="7Zgt5axUz9pp5Mu1ewZL-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UcYuyzC0k443ZCWtVJCF-0">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wYBtoat5SH22RKTOY9cK-0" parent="smC-nINVkLWTOF9UYLsl-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. Redirect unauthenticated users to login page if they access a protected route&lt;div&gt;2. Allow authenticated users to acess protected routes if they are already authenticated&lt;/div&gt;&lt;div&gt;3. Initiate authentication when the app loads initially&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="220" x="-230" y="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
