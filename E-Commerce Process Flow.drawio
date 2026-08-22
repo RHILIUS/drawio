@@ -378,7 +378,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="acqbvta_AMhU5p7Tht1i" name="auth_logout-process">
-    <mxGraphModel dx="853" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="731" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -494,7 +494,7 @@
         <mxCell id="GgUgzBbaOwKX2_CuLh6W-2" edge="1" parent="1" source="GgUgzBbaOwKX2_CuLh6W-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" target="Yr0jxduTB3A6eynm1q5x-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GgUgzBbaOwKX2_CuLh6W-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;set accessToken to null in memory&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Deletes refresh_token also (Expired by the set_cookie response header)&lt;/div&gt;" vertex="1">
+        <mxCell id="GgUgzBbaOwKX2_CuLh6W-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;set accessToken to null in memory&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Deletes refresh_token also (Expired out by the set_cookie response header)&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="150" x="810" y="570" as="geometry" />
         </mxCell>
         <mxCell id="GgUgzBbaOwKX2_CuLh6W-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="Catch the error and pass" vertex="1">
