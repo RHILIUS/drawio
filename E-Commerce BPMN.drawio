@@ -172,19 +172,19 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vGu48D1VSy_ICtZOPYSi" name="Signup Process">
-    <mxGraphModel dx="2755" dy="1411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2262" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7xjAQn_JVVExT0VnGpmm-13" parent="1" style="shape=table;childLayout=tableLayout;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;fontStyle=1" value="Signup Business Process" vertex="1">
-          <mxGeometry height="648" width="1560" x="-60" y="320" as="geometry" />
+          <mxGeometry height="648" width="1430" x="-60" y="320" as="geometry" />
         </mxCell>
         <mxCell id="7xjAQn_JVVExT0VnGpmm-14" parent="7xjAQn_JVVExT0VnGpmm-13" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;strokeColor=inherit;bottom=0;right=0;dropTarget=0;fontStyle=1;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" value="User" vertex="1">
-          <mxGeometry height="430" width="1560" y="40" as="geometry" />
+          <mxGeometry height="430" width="1430" y="40" as="geometry" />
         </mxCell>
         <mxCell id="7xjAQn_JVVExT0VnGpmm-15" parent="7xjAQn_JVVExT0VnGpmm-14" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=1;strokeColor=inherit;connectable=0;fillColor=none;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" value="Phase 1" vertex="1">
-          <mxGeometry height="430" width="1520" x="40" as="geometry">
-            <mxRectangle height="430" width="1520" as="alternateBounds" />
+          <mxGeometry height="430" width="1390" x="40" as="geometry">
+            <mxRectangle height="430" width="1390" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7xjAQn_JVVExT0VnGpmm-36" edge="1" parent="7xjAQn_JVVExT0VnGpmm-15" source="7xjAQn_JVVExT0VnGpmm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7xjAQn_JVVExT0VnGpmm-38">
@@ -231,7 +231,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhYu6ADuNu8kB03fenIx-1" parent="7xjAQn_JVVExT0VnGpmm-15" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" value="User confirms OTP?" vertex="1">
+        <mxCell id="vhYu6ADuNu8kB03fenIx-1" parent="7xjAQn_JVVExT0VnGpmm-15" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" value="User confirms OTP&amp;nbsp;&lt;div&gt;is received?&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="50" x="590" y="90" as="geometry" />
         </mxCell>
         <mxCell id="c5-fpETgETC1DQqBrtv7-1" parent="7xjAQn_JVVExT0VnGpmm-15" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Enters 6 digit OTP code" vertex="1">
@@ -256,11 +256,11 @@
           <mxGeometry height="50" width="50" x="1270" y="75" as="geometry" />
         </mxCell>
         <mxCell id="7xjAQn_JVVExT0VnGpmm-18" parent="7xjAQn_JVVExT0VnGpmm-13" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;strokeColor=inherit;bottom=0;right=0;dropTarget=0;fontStyle=1;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" value="System" vertex="1">
-          <mxGeometry height="178" width="1560" y="470" as="geometry" />
+          <mxGeometry height="178" width="1430" y="470" as="geometry" />
         </mxCell>
         <mxCell id="7xjAQn_JVVExT0VnGpmm-19" parent="7xjAQn_JVVExT0VnGpmm-18" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=1;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontSize=16;" value="" vertex="1">
-          <mxGeometry height="178" width="1520" x="40" as="geometry">
-            <mxRectangle height="178" width="1520" as="alternateBounds" />
+          <mxGeometry height="178" width="1390" x="40" as="geometry">
+            <mxRectangle height="178" width="1390" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DEUFKniQO3jw0paRN0rf-1" parent="7xjAQn_JVVExT0VnGpmm-19" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Sends 6 Digit OTP to user&#39;s email" vertex="1">
