@@ -172,7 +172,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vGu48D1VSy_ICtZOPYSi" name="Signup Process">
-    <mxGraphModel dx="2262" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1777" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -234,7 +234,7 @@
         <mxCell id="vhYu6ADuNu8kB03fenIx-1" parent="7xjAQn_JVVExT0VnGpmm-15" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;gwType=exclusive;" value="User confirms OTP&amp;nbsp;&lt;div&gt;is received?&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="50" x="590" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="c5-fpETgETC1DQqBrtv7-1" parent="7xjAQn_JVVExT0VnGpmm-15" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Enters 6 digit OTP code" vertex="1">
+        <mxCell id="c5-fpETgETC1DQqBrtv7-1" parent="7xjAQn_JVVExT0VnGpmm-15" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Enters 6 digit OTP code and click &quot;Verify&quot; button" vertex="1">
           <mxGeometry height="80" width="120" x="670" y="240" as="geometry" />
         </mxCell>
         <mxCell id="c5-fpETgETC1DQqBrtv7-4" parent="7xjAQn_JVVExT0VnGpmm-15" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Clicks &quot;Send OTP&quot; button" vertex="1">
