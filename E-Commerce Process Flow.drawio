@@ -378,7 +378,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EcSFkvXWOHsX0-cqH5E2" name="auth_signup-process">
-    <mxGraphModel dx="3046" dy="2217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1066" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1007,8 +1007,10 @@
         <mxCell id="hhhjK2Sa5PBJEYrRPuWq-56" edge="1" parent="L3MLXxfl6u-Rs78_CE9i-1" source="hhhjK2Sa5PBJEYrRPuWq-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" target="hhhjK2Sa5PBJEYrRPuWq-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hhhjK2Sa5PBJEYrRPuWq-152" edge="1" parent="L3MLXxfl6u-Rs78_CE9i-1" source="hhhjK2Sa5PBJEYrRPuWq-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hhhjK2Sa5PBJEYrRPuWq-151">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="hhhjK2Sa5PBJEYrRPuWq-152" edge="1" parent="L3MLXxfl6u-Rs78_CE9i-1" source="hhhjK2Sa5PBJEYrRPuWq-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2535.08" y="500" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
