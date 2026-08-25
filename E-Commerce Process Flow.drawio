@@ -378,7 +378,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EcSFkvXWOHsX0-cqH5E2" name="auth_signup-process">
-    <mxGraphModel dx="1066" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="761" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -901,8 +901,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hhhjK2Sa5PBJEYrRPuWq-142" edge="1" parent="GmZeK7h_D6ga8UHFZ-il-1" source="hhhjK2Sa5PBJEYrRPuWq-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hhhjK2Sa5PBJEYrRPuWq-58">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="hhhjK2Sa5PBJEYrRPuWq-142" edge="1" parent="GmZeK7h_D6ga8UHFZ-il-1" source="hhhjK2Sa5PBJEYrRPuWq-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VCCItg3JIxYH9Hi5vLQ7-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1990.04" y="750.04" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="hhhjK2Sa5PBJEYrRPuWq-143" connectable="0" parent="hhhjK2Sa5PBJEYrRPuWq-142" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
           <mxGeometry relative="1" x="0.1111" y="3" as="geometry">
@@ -919,16 +923,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hhhjK2Sa5PBJEYrRPuWq-58" parent="GmZeK7h_D6ga8UHFZ-il-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Create user" vertex="1">
-          <mxGeometry height="100" width="100" x="2010" y="680" as="geometry" />
+          <mxGeometry height="100" width="100" x="2170" y="690" as="geometry" />
         </mxCell>
         <mxCell id="hhhjK2Sa5PBJEYrRPuWq-148" edge="1" parent="GmZeK7h_D6ga8UHFZ-il-1" source="hhhjK2Sa5PBJEYrRPuWq-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hhhjK2Sa5PBJEYrRPuWq-147">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hhhjK2Sa5PBJEYrRPuWq-144" parent="GmZeK7h_D6ga8UHFZ-il-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Invalidate registration_token" vertex="1">
-          <mxGeometry height="100" width="100" x="2220" y="690" as="geometry" />
+          <mxGeometry height="100" width="100" x="2310" y="690" as="geometry" />
         </mxCell>
         <mxCell id="hhhjK2Sa5PBJEYrRPuWq-147" parent="GmZeK7h_D6ga8UHFZ-il-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" value="Return 201 create success response&lt;br&gt;&quot;Account created successfully&quot;" vertex="1">
           <mxGeometry height="100" width="100" x="2460" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="VCCItg3JIxYH9Hi5vLQ7-2" edge="1" parent="GmZeK7h_D6ga8UHFZ-il-1" source="VCCItg3JIxYH9Hi5vLQ7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hhhjK2Sa5PBJEYrRPuWq-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VCCItg3JIxYH9Hi5vLQ7-1" parent="GmZeK7h_D6ga8UHFZ-il-1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Geocode longitude and latitude to address text" vertex="1">
+          <mxGeometry height="100" width="100" x="2020" y="690" as="geometry" />
         </mxCell>
         <mxCell id="GmZeK7h_D6ga8UHFZ-il-6" parent="L3MLXxfl6u-Rs78_CE9i-1" style="swimlane;startSize=20;horizontal=0;html=1;" value="Email Provider" vertex="1">
           <mxGeometry height="190" width="3050" y="1530" as="geometry" />
